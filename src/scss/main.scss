@@ -40,6 +40,7 @@ $border-radius-sm: 0;
 // Card
 $card-border-color: map-get($theme-colors, "primary");
 
+// This is where you can import other stylesheets or write your scss code
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 .hero {
@@ -65,5 +66,3 @@ $card-border-color: map-get($theme-colors, "primary");
     object-fit: cover;
   }
 }
-// This is where you can import other stylesheets or write your scss code
-@import "../../node_modules/bootstrap/scss/bootstrap";
